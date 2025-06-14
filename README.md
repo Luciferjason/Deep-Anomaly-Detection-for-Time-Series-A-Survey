@@ -64,16 +64,16 @@ This repository updates the comprehensive list of state of the art deep anomaly 
 | [AQADF (TKDE 2022)](https://doi:10.1109/TKDE.2020.3014806)                | LSTM, CNN              | Self.             | UTS       | —    |
 | [AD-LTI (TKDE 2022)](https://ieeexplore.ieee.org/document/9247440)              | GRU                    | Un.               | UTS       | —    |
 | [SES-AD (ESWA 2022)](https://www.sciencedirect.com/science/article/pii/S0957417422011423?via%3Dihub)              | LSTM                   | Un.               | MTS       | [Code](https://github.com/JakeJiUThealth/SESAD_V1.0)   |
-| DeepAnT (2019)             | CNN                    | Un.               | UTS & MTS | —    |
-| CAD (2023)                 | CNN                    | Un.               | MTS       | —    |
-| GDN (2021)                 | GNN                    | Un.               | MTS       | —    |
-| GraphAD (2022)             | GNN                    | Un.               | MTS       | —    |
-| HGTMA (2023)               | GNN, Transformer       | Un.               | MTS       | —    |
-| CST-GL (2023)              | CNN, GNN               | Un.               | MTS       | —    |
-| CGAD (2023)                | GNN                    | Un.               | MTS       | —    |
-| Graph-MoE (2024)           | GNN                    | Un.               | MTS       | —    |
-| GCAD (2025)                | GNN                    | Un.               | MTS       | —    |
-| DDGCT (2025)               | GNN, Transformer       | Un.               | MTS       | —    |
+| [DeepAnT (IEEE Access 2019)](https://ieeexplore.ieee.org/document/8581424)             | CNN                    | Un.               | UTS & MTS | —    |
+| [CAD (FSE 2023)](https://dl.acm.org/doi/10.1145/3611643.3613896)                 | CNN                    | Un.               | MTS       | [Code](https://github.com/dawnvince/MTS_CAD)    |
+| [GDN (AAAI 2021)](https://ojs.aaai.org/index.php/AAAI/article/view/16523)                 | GNN                    | Un.               | MTS       | [Code](https://github.com/d-ailin/GDN)    |
+| [GraphAD (SIGIR 2022)](https://dl.acm.org/doi/10.1145/3477495.3531848)             | GNN                    | Un.               | MTS       | —    |
+| [HGTMA (J. Supercomput. 2023)](https://link.springer.com/article/10.1007/s11227-023-05503-w)              | GNN, Transformer       | Un.               | MTS       | —    |
+| [CST-GL (TNNLS 2023)](https://ieeexplore.ieee.org/document/10316684)              | CNN, GNN               | Un.               | MTS       | [Code](https://github.com/huankoh/CST-GL)    |
+| [CGAD (arxiv 2023)](https://arxiv.org/abs/2312.09478)                | GNN                    | Un.               | MTS       | [Code](https://github.com/falihgoz/cgad)    |
+| [Graph-MoE (arxiv 2024)](https://arxiv.org/abs/2412.19108)           | GNN                    | Un.               | MTS       | —    |
+| [GCAD (arxiv 2025)](https://arxiv.org/abs/2501.13493)                | GNN                    | Un.               | MTS       | —    |
+| [DDGCT (Cluster Comput. 2025)](https://link.springer.com/article/10.1007/s10586-024-04707-w)               | GNN, Transformer       | Un.               | MTS       | —    |
 
 
 
