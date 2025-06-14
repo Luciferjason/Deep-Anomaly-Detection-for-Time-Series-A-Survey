@@ -80,31 +80,32 @@ This repository updates the comprehensive list of state of the art deep anomaly 
 
 ### Reconstruction Models
 
-| Model                         | Main Architecture     | Learning Strategy | UTS/MTS     |
-|-------------------------------|-----------------------|-------------------|-------------|
-| MSCRED (2019)                 | CNN, LSTM, AE         | Un.               | MTS         |
-| Kieu et al. (2019)            | RNN, AE               | Un.               | UTS & MTS   |
-| USAD (2020)                   | AE                    | Un.               | MTS         |
-| APAE (2020)                   | AE                    | Un.               | MTS         |
-| RAMED (2021)                  | RNN, AE               | Un.               | UTS         |
-| TSAE (2021)                   | AE                    | Un.               | MTS         |
-| CAE-Ensemble (2021)           | CNN, AE               | Un.               | MTS         |
-| PAMFE (2023)                  | CNN, AE               | Un.               | MTS         |
-| Song et al. (2024)            | AE                    | Un.               | MTS         |
-| AEVAE (2025)                  | AE                    | Un.               | UTS         |
-| STGAT-MAD (2022)              | GNN, LSTM             | Un.               | MTS         |
-| MIXAD (2024)                  | GNN, LSTM             | Un.               | MTS         |
-| Anomaly Transformer (2022)    | Transformer           | Un.               | MTS         |
-| MAN-QSM (2023)                | Transformer           | Un.               | MTS         |
-| TranAD (2022)                 | Transformer           | Un.               | MTS         |
-| Uni-AD (2022)                 | Transformer           | Un.               | MTS         |
-| GCFormer (2023)               | Transformer           | Un.               | MTS         |
-| MEMTO (2023)                  | Transformer           | Un.               | MTS         |
-| EdgeConvFormer (2023)         | GNN, Transformer      | Un.               | MTS         |
-| ADFormer (2023)               | Transformer           | Un.               | MTS         |
-| FLAD (2023)                   | TCN, Transformer      | Un.               | MTS         |
-| PAFormer (2025)               | Transformer           | Un.               | MTS         |
-| GDFormer (2025)               | Transformer           | Un.               | MTS         |
+| Model                                                                                                                                        | Main Architecture     | Learning Strategy | UTS/MTS     | Code                                                 |
+|----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|-------------------|-------------|------------------------------------------------------|
+| [MSCRED (AAAI 2019)](https://ojs.aaai.org/index.php/AAAI/article/view/3942)                                                                  | CNN, LSTM, AE         | Un.               | MTS         | [Code](https://github.com/7fantasysz/MSCRED)         |
+| [Kieu et al. (IJCAI 2019)](https://www.ijcai.org/proceedings/2019/378)                                                                       | RNN, AE               | Un.               | UTS & MTS   | —                                                    |
+| [USAD (SIGKDD 2020)](https://dl.acm.org/doi/10.1145/3394486.3403392)                                                                         | AE                    | Un.               | MTS         | [Code](https://github.com/manigalati/usad)           |
+| [APAE (IJCAI 2020)](http://dx.doi.org/10.24963/IJCAI.2020/173)                                                                               | AE                    | Un.               | MTS         | —                                                    |
+| [RAMED (AAAI 2021)](https://ojs.aaai.org/index.php/AAAI/article/view/17152)                                                                  | RNN, AE               | Un.               | UTS         | —                                                    |
+| [TSAE (ICDMW 2021)](https://ieeexplore.ieee.org/document/9679903)                                                                            | AE                    | Un.               | MTS         | —                                                    |
+| [CAE-Ensemble (VLDB 2021)](https://dl.acm.org/doi/10.14778/3494124.3494142)                                                                  | CNN, AE               | Un.               | MTS         | [Code](https://github.com/d-gcc/CAE-Ensemble)        |
+| [PAMFE (Appl. Intell. 2023)](https://link.springer.com/article/10.1007/s10489-022-04324-3)                                                   | CNN, AE               | Un.               | MTS         | —                                                    |
+| [SVD-AE (NN 2024)](https://www.sciencedirect.com/science/article/pii/S0893608023006469?via%3Dihub)                                           | AE                    | Un.               | MTS         | —                                                    |
+| [Song et al. (TNNLS 2024)](https://ieeexplore.ieee.org/document/10091135)                                                                    | AE                    | Un.               | MTS         | —                                                    |
+| [AEVAE (TNNLS 2025)](https://ieeexplore.ieee.org/document/10345653)                                                                          | AE                    | Un.               | UTS         | —                                                    |
+| [STGAT-MAD (ICASSP 2022)](https://ieeexplore.ieee.org/document/9747274)                                                                      | GNN, LSTM             | Un.               | MTS         | [Code](https://github.com/zhanjun717/STGAT)          |
+| [MIXAD (ICPR 2024)](https://link.springer.com/chapter/10.1007/978-3-031-78189-6_16)                                                          | GNN, LSTM             | Un.               | MTS         | [Code](https://github.com/mhkim9714/MIXAD)           |
+| [Anomaly Transformer (ICLR 2022)](https://openreview.net/forum?id=3bqJqBgimY)                                                                | Transformer           | Un.               | MTS         | [Code](https://github.com/thuml/Anomaly-Transformer) |
+| [MAN-QSM (ICME 2023)](http://dx.doi.org/10.1109/ICME55011.2023.00466)                                                                        | Transformer           | Un.               | MTS         | [Code](https://github.com/zeg-datamining/MAN-QSM)    |
+| [TranAD (VLDB 2022)](https://dl.acm.org/doi/10.14778/3514061.3514067)                                                                        | Transformer           | Un.               | MTS         | [Code](https://github.com/imperial-qore/TranAD)      |
+| [Uni-AD (ISSRE 2022)](http://dx.doi.org/10.1109/ISSRE55969.2022.00014)                                                                       | Transformer           | Un.               | MTS         | [Code](https://github.com/IntelligentDDS/Uni-AD)     |
+| [GCFormer (ICDM 2023)](https://ieeexplore.ieee.org/document/10415739/)                                                                       | Transformer           | Un.               | MTS         | —                                                    |
+| [MEMTO (NeurIPS 2023)](https://proceedings.neurips.cc/paper_files/paper/2023/hash/b4c898eb1fb556b8d871fbe9ead92256-Abstract-Conference.html) | Transformer           | Un.               | MTS         | [Code](https://github.com/gunny97/MEMTO)             |
+| [EdgeConvFormer (arxiv 2023)](https://arxiv.org/abs/2312.01729)                                                                              | GNN, Transformer      | Un.               | MTS         | —                                                    |
+| [ADFormer (FGCS 2023)](https://www.sciencedirect.com/science/article/pii/S0167739X23000560?via%3Dihub)                                       | Transformer           | Un.               | MTS         | —                                                    |
+| [FLAD (JCRD 2023)](https://crad.ict.ac.cn/cn/article/doi/10.7544/issn1000-1239.202220490)                                                    | TCN, Transformer      | Un.               | MTS         | —                                                    |
+| [PAFormer (TNNLS 2025)](https://ieeexplore.ieee.org/document/10352961)                                                                       | Transformer           | Un.               | MTS         | —                                                    |
+| [GDFormer (arxiv 2025)](https://arxiv.org/abs/2501.18196)                                                                                                                    | Transformer           | Un.               | MTS         | [Code](https://github.com/yuppielqx/GDformer)                                             |
 
 
 ### Generative Models
