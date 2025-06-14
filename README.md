@@ -117,6 +117,15 @@ This repository updates the comprehensive list of state of the art deep anomaly 
 | [DiffGAN (arxiv 2025)](https://arxiv.org/abs/2501.01591)                                           | GAN, DM | Un. | MTS | [Code](https://github.com/guangqiangwu/diffgan)                                            |
 
 ### Density Models
+| Model                                                                                                                 | Main Architecture       | Learning Strategy | UTS/MTS | Code                                      |
+|-----------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------|---------|-------------------------------------------|
+| [NSIBF (SIGKDD 2021)](https://dl.acm.org/doi/10.1145/3447548.3467137)                                                 | LSTM                    | Un.               | MTS     | [Code](https://github.com/cfeng783/NSIBF) |
+| [BSSAD (arxiv 2023)](https://arxiv.org/abs/2301.13031)                                                                | RNN, AE                 | Un.               | MTS     | —                                         |
+| [GANF (ICLR 2022)](https://openreview.net/pdf?id=45L_dgP48Vd)                                                         | RNN, GNN, NF            | Un.               | MTS     | [Code](https://github.com/enyandai/ganf)  |
+| [MTGFlow (AAAI 2023)](https://ojs.aaai.org/index.php/AAAI/article/view/25623)                                         | RNN, GNN, NF            | Un.               | MTS     | [Code](https://github.com/zqhang/MTGFLOW)                                  |
+| [GNF (IEEE Intell. Syst. 2023)](https://ieeexplore.ieee.org/document/10061588/)                                       | GNN, Transformer, NF    | Un.               | MTS     | —                                         |
+| [AFNF (ISA Trans. 2023)](https://www.sciencedirect.com/science/article/pii/S0019057823004020?via%3Dihub)              | Transformer, NF         | Un.               | MTS     | —                                         |
+| [SCNF (Reliab. Eng. Syst. Saf. 2023)](https://www.sciencedirect.com/science/article/pii/S0951832023003241?via%3Dihub) | GNN, GRU                | Un.               | MTS     | —                                         |
 
 ### Contrastive Models
 
