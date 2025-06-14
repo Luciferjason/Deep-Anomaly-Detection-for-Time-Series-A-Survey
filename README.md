@@ -60,8 +60,8 @@ This repository updates the comprehensive list of state of the art deep anomaly 
 
 | Model                      | Main Architecture      | Learning Strategy | UTS/MTS   | Code |
 |----------------------------|------------------------|-------------------|-----------|------|
-| [Ergen et al.](doi:10.1109/TNNLS.2019.2935975) (TNNLS 2020)        | LSTM                   | Un.               | MTS       | —    |
-| AQADF (2022)               | LSTM, CNN              | Self.             | UTS       | —    |
+| [Ergen et al. (TNNLS 2020)](https://doi.org/10.1109/TNNLS.2019.2935975)         | LSTM                   | Un.               | MTS       | —    |
+| [AQADF]() (2022)               | LSTM, CNN              | Self.             | UTS       | —    |
 | AD-LTI (2022)              | GRU                    | Un.               | UTS       | —    |
 | SES-AD (2022)              | LSTM                   | Un.               | MTS       | —    |
 | DeepAnT (2019)             | CNN                    | Un.               | UTS & MTS | —    |
