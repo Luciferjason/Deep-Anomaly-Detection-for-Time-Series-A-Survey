@@ -1,5 +1,7 @@
 # Deep-Anomaly-Detection-for-Time-Series-A-Survey 
 This repository updates the comprehensive list of state of the art deep anomaly detection methods for Time Series
+## Table of Contents
+
 -[Methods for Deep Anomaly Detection in Time Series](#Methods for Deep Anomaly Detection in Time Series)
     -[Forecasting Models](#Forecasting Models)
         -[RNN-Based Methods](#RNN-Based Methods)
@@ -51,5 +53,6 @@ This repository updates the comprehensive list of state of the art deep anomaly 
         -[Anomaly Prediction and Early Warning](#Anomaly Prediction and Early Warning)
 
 
+## Methods for Deep Anomaly Detection in Time Series
 
 
