@@ -6,9 +6,7 @@ This repository updates the comprehensive list of state of the art deep anomaly 
 
 - [Methods for Deep Anomaly Detection in Time Series](#methods-for-deep-anomaly-detection-in-time-series)  
   - [Forecasting Models](#forecasting-models)  
-    - [RNN-Based Methods](#rnn-based-methods)  
-    - [CNN-Based Methods](#cnn-based-methods)  
-    - [GNN-Based Methods](#gnn-based-methods)  
+   
   - [Reconstruction Models](#reconstruction-models)  
     - [Autoencoder-Based Methods](#autoencoder-based-methods)  
     - [GNN/Transformer-Based Models](#gnntransformer-based-models)  
@@ -60,11 +58,24 @@ This repository updates the comprehensive list of state of the art deep anomaly 
 
 ### Forecasting Models
 
-#### RNN-Based Methods
+| Model                      | Main Architecture      | Learning Strategy | UTS/MTS   | Code |
+|----------------------------|------------------------|-------------------|-----------|------|
+| Ergen et al. (2020)        | LSTM                   | Un.               | MTS       | —    |
+| AQADF (2022)               | LSTM, CNN              | Self.             | UTS       | —    |
+| AD-LTI (2022)              | GRU                    | Un.               | UTS       | —    |
+| SES-AD (2022)              | LSTM                   | Un.               | MTS       | —    |
+| DeepAnT (2019)             | CNN                    | Un.               | UTS & MTS | —    |
+| CAD (2023)                 | CNN                    | Un.               | MTS       | —    |
+| GDN (2021)                 | GNN                    | Un.               | MTS       | —    |
+| GraphAD (2022)             | GNN                    | Un.               | MTS       | —    |
+| HGTMA (2023)               | GNN, Transformer       | Un.               | MTS       | —    |
+| CST-GL (2023)              | CNN, GNN               | Un.               | MTS       | —    |
+| CGAD (2023)                | GNN                    | Un.               | MTS       | —    |
+| Graph-MoE (2024)           | GNN                    | Un.               | MTS       | —    |
+| GCAD (2025)                | GNN                    | Un.               | MTS       | —    |
+| DDGCT (2025)               | GNN, Transformer       | Un.               | MTS       | —    |
 
-#### CNN-Based Methods
 
-#### GNN-Based Methods
 
 ### Reconstruction Models
 
