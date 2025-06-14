@@ -138,6 +138,20 @@ This repository updates the comprehensive list of state of the art deep anomaly 
 
 ### Hybrid and Other Methods
 
+| Model                                                                                                   | Main Architecture        | Learning Strategy | UTS/MTS | Objection Function Type       | Code                                               |
+|---------------------------------------------------------------------------------------------------------|--------------------------|-------------------|---------|-------------------------------|----------------------------------------------------|
+| [MTAD-GAT (ICDM 2020)](https://ieeexplore.ieee.org/document/9338317)                                    | GNN, GRU, VAE, MLP       | Un.               | MTS     | Forecasting + Generative      | [Code](https://github.com/ML4ITS/mtad-gat-pytorch) |
+| [MST-GAT (Inf. Fusion 2023)](http://dx.doi.org/10.1016/j.inffus.2022.08.011)                            | GNN, TCN, VAE, MLP       | Un.               | MTS     | Forecasting + Generative      | —                                                  |
+| [FuSAGNet (SIGKDD 2022)](https://dl.acm.org/doi/10.1145/3534678.3539117)                                | GNN, AE                  | Semi.             | MTS     | Forecasting + Reconstruction  | —                                                  |
+| [DVGCRN (ICML 2022)](https://proceedings.mlr.press/v162/chen22x)                                        | GNN, VAE                 | Un.               | MTS     | Forecasting + Generative      | —                                                  |
+| [CAE-M (TKDE 2021)](https://ieeexplore.ieee.org/document/9507359)                                       | AE, LSTM                 | Un.               | MTS     | Forecasting + Reconstruction  | —                                                  |
+| [HybridAD (TETCI 2023)](https://ieeexplore.ieee.org/document/10177380)                                  | GRU, CNN, AE             | Un.               | MTS     | Forecasting + Reconstruction  | —                                                  |
+| [CAE-AD (SDM 2022)](http://dx.doi.org/10.1137/1.9781611977653.ch78)                                     | AE, LSTM                 | Self.             | MTS     | Contrastive + Reconstruction  | —                                                  |
+| [COCA (Inf. Sci. 2022)](https://www.sciencedirect.com/science/article/pii/S0020025522008775?via%3Dihub) | AE                       | Self.             | MTS     | Contrastive + One Class       | —                                                  |
+| [DCAD (NN 2023)](https://www.sciencedirect.com/science/article/pii/S0893608023005385?via%3Dihub)        | CNN, Transformer         | Self.             | MTS     | Contrastive + Reconstruction  | —                                                  |
+| [ACVAE (NN 2024)](https://www.sciencedirect.com/science/article/pii/S0893608023007281?via%3Dihub)       | VAE                      | Self.             | MTS     | Contrastive + Generative      | —                                                  |
+| [DiffAD (SIGKDD 2023)](https://dl.acm.org/doi/10.1145/3580305.3599391)                                  | DM                       | Self.             | MTS     | Imputation                    | [Code](https://github.com/ChunjingXiao/DiffAD)     |
+| [ImDiffusion (VLDB 2023)](https://dl.acm.org/doi/10.14778/3632093.3632101)                                                                             | DM                      | Self.             | MTS     | Imputation                    | [Code](https://github.com/17000cyh/IMDiffusion)                                           |
 
 
 ## Application Areas
