@@ -7,7 +7,7 @@ This repository updates the comprehensive list of state of the art deep anomaly 
         -[RNN-Based Methods](#RNN-Based Methods)
         -[CNN-Based Methods](#CNN-Based Methods)
         -[GNN-Based Methods](#LSTM-Based Methods)
-    -[Reconstruection Models](#Reconstrution Models)
+    -[Reconstruction Models](#Reconstruction Models)
         -[Autoencoder-Based Methods](#Autoencoder-Based Methods)
         -[GNN/Transformer-Based Models](#GNN/Transformer-Based Models)
     -[Generative Models](#Generative Models)
