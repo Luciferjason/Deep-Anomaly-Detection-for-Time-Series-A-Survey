@@ -255,9 +255,17 @@ This repository updates the comprehensive list of state of the art deep anomaly 
 
 ### AutoML for Time Series Anomaly Detection
 
-#### Automated Hyperparameter Tuning and Model Selection
+| Method                                      | Model                                                                                                     | Code                                                            |
+|---------------------------------------------|-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Automated Hyperparameter Tuning & Selection | [TimeAutoAD (TNSE 2022)](https://ieeexplore.ieee.org/document/9705079)                                    | —                                                               |
+| Automated Hyperparameter Tuning & Selection | [MOSPAT (arxiv 2022)](https://arxiv.org/abs/2205.11755)                                                   | [Code](https://github.com/facebookresearch/kats)                |
+| Automated Hyperparameter Tuning & Selection | [Goswami et al. (ICLR 2023)](https://openreview.net/forum?id=gOZ_pKANaPW)                                 | [Code](https://github.com/mononitogoswami/tsad-model-selection) |
+| Automated Hyperparameter Tuning & Selection | [Sylligardos et al. (VLDB 2023)](https://dl.acm.org/doi/10.14778/3611479.3611536)                         | [Code](https://github.com/boniolp/MSAD)                         |
+| Optimization Objectives & Task Adaptation   | [Dong et al. (arxiv 2023)](https://arxiv.org/abs/2307.10653)                                              | —                                                               |
+| Optimization Objectives & Task Adaptation   | [AD-NEv (arxiv 2023)](https://arxiv.org/abs/2305.16497)                                                   | —                                                               |
+| Optimization Objectives & Task Adaptation   | [TransNAS-TSAD (Neural Comput. Appl. 2024)](https://link.springer.com/article/10.1007/s00521-024-10759-1) | [Code](https://github.com/ejokhan/TransNAS_TSAD.git)            |
+| Optimization Objectives & Task Adaptation   | [AutoKAD (ISSRE 2023)](https://ieeexplore.ieee.org/document/10301277)                                                                                  | [Code](https://github.com/NetManAIOps/AutoKAD)                                                        |
 
-#### Optimization Objectives and Task Adaptation
 
 ### Lightweight Models
 
