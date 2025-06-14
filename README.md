@@ -64,7 +64,7 @@ This repository updates the comprehensive list of state of the art deep anomaly 
 | [AQADF (TKDE 2022)](https://doi:10.1109/TKDE.2020.3014806)                | LSTM, CNN              | Self.             | UTS       | —    |
 | [AD-LTI (TKDE 2022)](https://ieeexplore.ieee.org/document/9247440)              | GRU                    | Un.               | UTS       | —    |
 | [SES-AD (ESWA 2022)](https://www.sciencedirect.com/science/article/pii/S0957417422011423?via%3Dihub)              | LSTM                   | Un.               | MTS       | [Code](https://github.com/JakeJiUThealth/SESAD_V1.0)   |
-| [DeepAnT (IEEE Access 2019)](https://ieeexplore.ieee.org/document/8581424)             | CNN                    | Un.               | UTS & MTS | —    |
+| [DeepAnT (Access 2019)](https://ieeexplore.ieee.org/document/8581424)             | CNN                    | Un.               | UTS & MTS | —    |
 | [CAD (FSE 2023)](https://dl.acm.org/doi/10.1145/3611643.3613896)                 | CNN                    | Un.               | MTS       | [Code](https://github.com/dawnvince/MTS_CAD)    |
 | [GDN (AAAI 2021)](https://ojs.aaai.org/index.php/AAAI/article/view/16523)                 | GNN                    | Un.               | MTS       | [Code](https://github.com/d-ailin/GDN)    |
 | [GraphAD (SIGIR 2022)](https://dl.acm.org/doi/10.1145/3477495.3531848)             | GNN                    | Un.               | MTS       | —    |
