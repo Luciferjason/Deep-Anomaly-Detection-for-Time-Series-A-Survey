@@ -58,30 +58,54 @@ This repository updates the comprehensive list of state of the art deep anomaly 
 
 ### Forecasting Models
 
-| Model                      | Main Architecture      | Learning Strategy | UTS/MTS   | Code |
-|----------------------------|------------------------|-------------------|-----------|------|
-| [Ergen et al. (TNNLS 2020)](https://doi.org/10.1109/TNNLS.2019.2935975)         | LSTM                   | Un.               | MTS       | —    |
-| [AQADF (TKDE 2022)](https://doi:10.1109/TKDE.2020.3014806)                | LSTM, CNN              | Self.             | UTS       | —    |
-| [AD-LTI (TKDE 2022)](https://ieeexplore.ieee.org/document/9247440)              | GRU                    | Un.               | UTS       | —    |
-| [SES-AD (ESWA 2022)](https://www.sciencedirect.com/science/article/pii/S0957417422011423?via%3Dihub)              | LSTM                   | Un.               | MTS       | [Code](https://github.com/JakeJiUThealth/SESAD_V1.0)   |
-| [DeepAnT (Access 2019)](https://ieeexplore.ieee.org/document/8581424)             | CNN                    | Un.               | UTS & MTS | —    |
-| [CAD (FSE 2023)](https://dl.acm.org/doi/10.1145/3611643.3613896)                 | CNN                    | Un.               | MTS       | [Code](https://github.com/dawnvince/MTS_CAD)    |
-| [GDN (AAAI 2021)](https://ojs.aaai.org/index.php/AAAI/article/view/16523)                 | GNN                    | Un.               | MTS       | [Code](https://github.com/d-ailin/GDN)    |
-| [GraphAD (SIGIR 2022)](https://dl.acm.org/doi/10.1145/3477495.3531848)             | GNN                    | Un.               | MTS       | —    |
-| [HGTMA (J. Supercomput. 2023)](https://link.springer.com/article/10.1007/s11227-023-05503-w)              | GNN, Transformer       | Un.               | MTS       | —    |
-| [CST-GL (TNNLS 2023)](https://ieeexplore.ieee.org/document/10316684)              | CNN, GNN               | Un.               | MTS       | [Code](https://github.com/huankoh/CST-GL)    |
-| [CGAD (arxiv 2023)](https://arxiv.org/abs/2312.09478)                | GNN                    | Un.               | MTS       | [Code](https://github.com/falihgoz/cgad)    |
-| [Graph-MoE (arxiv 2024)](https://arxiv.org/abs/2412.19108)           | GNN                    | Un.               | MTS       | —    |
-| [GCAD (arxiv 2025)](https://arxiv.org/abs/2501.13493)                | GNN                    | Un.               | MTS       | —    |
-| [DDGCT (Cluster Comput. 2025)](https://link.springer.com/article/10.1007/s10586-024-04707-w)               | GNN, Transformer       | Un.               | MTS       | —    |
+| Model                                                                                                | Main Architecture      | Learning Strategy | UTS/MTS   | Code |
+|------------------------------------------------------------------------------------------------------|------------------------|-------------------|-----------|------|
+| [Ergen et al. (TNNLS 2020)](https://doi.org/10.1109/TNNLS.2019.2935975)                              | LSTM                   | Un.               | MTS       | —    |
+| [AQADF (TKDE 2022)](https://doi:10.1109/TKDE.2020.3014806)                                           | LSTM, CNN              | Self.             | UTS       | —    |
+| [AD-LTI (TKDE 2022)](https://ieeexplore.ieee.org/document/9247440)                                   | GRU                    | Un.               | UTS       | —    |
+| [SES-AD (ESWA 2022)](https://www.sciencedirect.com/science/article/pii/S0957417422011423?via%3Dihub) | LSTM                   | Un.               | MTS       | [Code](https://github.com/JakeJiUThealth/SESAD_V1.0)   |
+| [DeepAnT (Access 2019)](https://ieeexplore.ieee.org/document/8581424)                                | CNN                    | Un.               | UTS & MTS | —    |
+| [CAD (FSE 2023)](https://dl.acm.org/doi/10.1145/3611643.3613896)                                     | CNN                    | Un.               | MTS       | [Code](https://github.com/dawnvince/MTS_CAD)    |
+| [GDN (AAAI 2021)](https://ojs.aaai.org/index.php/AAAI/article/view/16523)                            | GNN                    | Un.               | MTS       | [Code](https://github.com/d-ailin/GDN)    |
+| [GraphAD (SIGIR 2022)](https://dl.acm.org/doi/10.1145/3477495.3531848)                               | GNN                    | Un.               | MTS       | —    |
+| [HGTMA (J. Supercomput. 2023)](https://link.springer.com/article/10.1007/s11227-023-05503-w)         | GNN, Transformer       | Un.               | MTS       | —    |
+| [CST-GL (TNNLS 2023)](https://ieeexplore.ieee.org/document/10316684)                                 | CNN, GNN               | Un.               | MTS       | [Code](https://github.com/huankoh/CST-GL)    |
+| [CGAD (arxiv 2023)](https://arxiv.org/abs/2312.09478)                                                | GNN                    | Un.               | MTS       | [Code](https://github.com/falihgoz/cgad)    |
+| [Graph-MoE (arxiv 2024)](https://arxiv.org/abs/2412.19108)                                           | GNN                    | Un.               | MTS       | —    |
+| [GCAD (arxiv 2025)](https://arxiv.org/abs/2501.13493)                                                | GNN                    | Un.               | MTS       | —    |
+| [DDGCT (Cluster Comput. 2025)](https://link.springer.com/article/10.1007/s10586-024-04707-w)         | GNN, Transformer       | Un.               | MTS       | —    |
+| [GDTS (Neurocomputing 2025)](https://www.sciencedirect.com/science/article/pii/S0925231224019398?via%3Dihub)          | GNN, Transformer       | Un.               | MTS       | —    |
 
 
 
 ### Reconstruction Models
 
-#### Autoencoder-Based Methods
+| Model                         | Main Architecture     | Learning Strategy | UTS/MTS     |
+|-------------------------------|-----------------------|-------------------|-------------|
+| MSCRED (2019)                 | CNN, LSTM, AE         | Un.               | MTS         |
+| Kieu et al. (2019)            | RNN, AE               | Un.               | UTS & MTS   |
+| USAD (2020)                   | AE                    | Un.               | MTS         |
+| APAE (2020)                   | AE                    | Un.               | MTS         |
+| RAMED (2021)                  | RNN, AE               | Un.               | UTS         |
+| TSAE (2021)                   | AE                    | Un.               | MTS         |
+| CAE-Ensemble (2021)           | CNN, AE               | Un.               | MTS         |
+| PAMFE (2023)                  | CNN, AE               | Un.               | MTS         |
+| Song et al. (2024)            | AE                    | Un.               | MTS         |
+| AEVAE (2025)                  | AE                    | Un.               | UTS         |
+| STGAT-MAD (2022)              | GNN, LSTM             | Un.               | MTS         |
+| MIXAD (2024)                  | GNN, LSTM             | Un.               | MTS         |
+| Anomaly Transformer (2022)    | Transformer           | Un.               | MTS         |
+| MAN-QSM (2023)                | Transformer           | Un.               | MTS         |
+| TranAD (2022)                 | Transformer           | Un.               | MTS         |
+| Uni-AD (2022)                 | Transformer           | Un.               | MTS         |
+| GCFormer (2023)               | Transformer           | Un.               | MTS         |
+| MEMTO (2023)                  | Transformer           | Un.               | MTS         |
+| EdgeConvFormer (2023)         | GNN, Transformer      | Un.               | MTS         |
+| ADFormer (2023)               | Transformer           | Un.               | MTS         |
+| FLAD (2023)                   | TCN, Transformer      | Un.               | MTS         |
+| PAFormer (2025)               | Transformer           | Un.               | MTS         |
+| GDFormer (2025)               | Transformer           | Un.               | MTS         |
 
-#### GNN/Transformer-Based Models
 
 ### Generative Models
 
