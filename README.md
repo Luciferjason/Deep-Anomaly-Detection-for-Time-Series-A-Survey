@@ -13,7 +13,7 @@ This repository updates the comprehensive list of state of the art deep anomaly 
 
     - [Density Models](#density-models)
     - [Contrastive Models](#contrastive-models)
-
+    - [Hybrid and Other Methods](#hybrid-and-other-methods)
 - [Application Areas](#application-areas)
     - [Network Services](#network-services)
     - [Cyber-Physical System](#cyber-physical-system)
@@ -128,6 +128,17 @@ This repository updates the comprehensive list of state of the art deep anomaly 
 | [SCNF (Reliab. Eng. Syst. Saf. 2023)](https://www.sciencedirect.com/science/article/pii/S0951832023003241?via%3Dihub) | GNN, GRU                | Un.               | MTS     | —                                         |
 
 ### Contrastive Models
+| Model                                                                      | Main Architecture     | Learning Strategy | UTS/MTS     | Code     |
+|----------------------------------------------------------------------------|-----------------------|-------------------|-------------|----------|
+| [DCDetector (SIGKDD 2023)](https://dl.acm.org/doi/10.1145/3580305.3599295) | Transformer           | Self.             | MTS         | [Code](https://github.com/DAMO-DI-ML/KDD2023-DCdetector) |
+| [ContrastAD (IJCNN 2023)](https://ieeexplore.ieee.org/document/10191358/)  | AE                    | Self.             | UTS & MTS   | —        |
+| [TiCTok (Access 2023)](https://ieeexplore.ieee.org/document/10201844/)     | CNN, Transformer      | Self.             | MTS         | —        |
+| [TriAD (ICDE 2024)](http://dx.doi.org/10.1109/ICDE60146.2024.00080)        | CNN                   | Self.             | UTS         | —        |
+| [PCRTA (IJCAI 2024)](https://www.ijcai.org/proceedings/2024/548)                                                     | TCN                   | Self.             | MTS         | —        |
+
+### Hybrid and Other Methods
+
+
 
 ## Application Areas
 
