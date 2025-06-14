@@ -214,12 +214,21 @@ This repository updates the comprehensive list of state of the art deep anomaly 
 | Distribution‐Aware Learning Objectives      | [RDSSM (TKDE 2022)](https://ieeexplore.ieee.org/document/9773982/)                                               | —                                             |
 | Distribution‐Aware Learning Objectives      | [RoSAS (IPM 2023)](https://www.sciencedirect.com/science/article/pii/S0306457323001966?via%3Dihub)               | [Code](https://github.com/xuhongzuo/rosas/)   |
 | Contextual Representation & Architecture    | [CAE‐M (TKDE 2021)](https://ieeexplore.ieee.org/document/9507359)                                                | —                                             |
-| Contextual Representation & Architecture    | [Li et al. (ICASSP 2022)](https://ieeexplore.ieee.org/document/9747668/)                                                                                      | [Code](https://github.com/
-hanhuili/MTCE-AnomalyDetection)                                      |
+| Contextual Representation & Architecture    | [Li et al. (ICASSP 2022)](https://ieeexplore.ieee.org/document/9747668/)                                                                                      | [Code](https://github.com/hanhuili/MTCE-AnomalyDetection)                                      |
 
 
 ### Generalization of the Models
 
+| Method                       | Model                                                                                                                                      | Code                                       |
+|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| Intra-domain Generalization  | [CDAM (NPL 2023)](https://link.springer.com/article/10.1007/s11063-022-11015-0)                                                            | —                                          |
+| Intra-domain Generalization  | [D3R (NeurIPS 2023)](https://proceedings.neurips.cc/paper_files/paper/2023/hash/22f5d8e689d2a011cd8ead552ed59052-Abstract-Conference.html) | [Code](https://github.com/ForestsKing/D3R) |
+| Intra-domain Generalization  | [Liu et al. (WWWJ 2023)](https://link.springer.com/article/10.1007/s11280-023-01181-z)                                                     | —                                          |
+| Intra-domain Generalization  | [ADTCD (IoTJ 2023)](https://ieeexplore.ieee.org/document/10097858/)                                                                        | —                                          |
+| Intra-domain Generalization  | [M2N2 (AAAI 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/29210)                                                                 | [Code](https://github.com/carrtesy/m2n2)   |
+| Cross-domain Generalization  | [AnoTransfer (JSAC 2022)](https://ieeexplore.ieee.org/document/9791391)                                                                    | [Code](https://github.com/anotransfer/AnoTransfer-code)                                   |
+| Cross-domain Generalization  | [ContexTDA (SDM 2023)](https://epubs.siam.org/doi/10.1137/1.9781611977653.ch76)                                                            | —                                          |
+| Cross-domain Generalization  | [FS-ADAPT (Inf. Sci. 2023)](https://www.sciencedirect.com/science/article/pii/S0020025523011957?via%3Dihub)                                | —                                          |
 
 
 ### Foundational Models, Pre-trained Models, and Large Language Models
