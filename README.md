@@ -269,14 +269,26 @@ This repository updates the comprehensive list of state of the art deep anomaly 
 
 ### Lightweight Models
 
-#### Simplifying Network Architectures and Reducing Model Parameters
+| Method                                                   | Model                                                                                                        | Code     |
+|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|----------|
+| Simplifying Network Architectures and Reducing Model Parameters | [ESN-AE (TII 2023)](https://ieeexplore.ieee.org/document/9964314)                                            | —        |
+| Simplifying Network Architectures and Reducing Model Parameters | [LUAD (Neurocomputing 2023)](https://www.sciencedirect.com/science/article/pii/S0925231223007671?via%3Dihub) | —        |
+| Simplifying Network Architectures and Reducing Model Parameters | [RoLA (ICSOFT 2023)](https://www.scitepress.org/Link.aspx?doi=10.5220/0012077200003538)                      | —        |
+| Simplifying Network Architectures and Reducing Model Parameters | [FlightAD (ICPADS 2023)](https://ieeexplore.ieee.org/document/10476104)                                      | —        |
+| Simplifying Network Architectures and Reducing Model Parameters | [FITS (ICLR 2024)](https://openreview.net/forum?id=bWcnvZ3qMb)                                               | [Code](https://github.com/vewoxic/fits) |
+| Optimizing the Execution Pipeline                         | [LightESD (EDGE 2023)](https://ieeexplore.ieee.org/document/10234322/)                                       | —        |
+| Optimizing the Execution Pipeline                         | [TinyAD (TII 2024)](https://ieeexplore.ieee.org/document/10093068)                                           | —        |
 
-#### Optimizing the Execution Pipeline
 
 ### Others
 
-#### Efficient Labeling
-
-#### Irregular Data Modeling
-
-#### Anomaly Prediction and Early Warning
+| Method                               | Model                                                                                                        | Code                                        |
+|--------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| Efficient Labeling                   | [ATAD (ATC 2019)](https://www.usenix.org/conference/atc19/presentation/zhang-xu)                             | —                                           |
+| Efficient Labeling                   | [REAL (ICIC 2023)](https://link.springer.com/chapter/10.1007/978-981-99-4752-2_10)                           | —                                           |
+| Irregular Data Modeling              | [PoA (SIGKDD 2023)](https://dl.acm.org/doi/10.1145/3580305.3599469)                                          | [Code](https://github.com/sheoyon-jhin/pad) |
+| Irregular Data Modeling              | [GST-Pro (Inf. Fusion 2024)](https://www.sciencedirect.com/science/article/pii/S1566253524000332?via%3Dihub) | —                                           |
+| Irregular Data Modeling              | [STMG-AD (ICASSP 2025)](http://dx.doi.org/10.1109/ICASSP49660.2025.10888536)                                 | —                                           |
+| Anomaly Prediction & Early Warning   | [MultiRC (arxiv 2024)](https://arxiv.org/abs/2410.15997)                                                     | —                                           |
+| Anomaly Prediction & Early Warning   | [IGCL (arxiv 2024)](https://arxiv.org/abs/2410.15997)                                                        | —                                           |
+| Anomaly Prediction & Early Warning   | [FCM (arxiv 2024)](https://arxiv.org/abs/2410.12206)                                                         | [Code](https://github.com/mala-lab/FCM)                                    |
