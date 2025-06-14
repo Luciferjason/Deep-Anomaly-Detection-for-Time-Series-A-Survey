@@ -20,9 +20,7 @@ This repository updates the comprehensive list of state of the art deep anomaly 
     - [Data Augmentation](#data-augmentation)
        
     - [Robustness of the Models](#robustness-of-the-models)
-        - [Data Filtering and Pseudo-labeling Approaches](#data-filtering-and-pseudo-labeling-approaches)
-        - [Distribution-Aware Learning Objectives](#distribution-aware-learning-objectives)
-        - [Contextual Representation and Architecture Enhancements](#contextual-representation-and-architecture-enhancements)
+       
     - [Generalization of the Models](#generalization-of-the-models)
         - [Intra-domain Generalization](#intra-domain-generalization)
         - [Cross-domain Generalization](#cross-domain-generalization)
@@ -208,17 +206,21 @@ This repository updates the comprehensive list of state of the art deep anomaly 
 
 ### Robustness of the Models
 
-#### Data Filtering and Pseudo-labeling Approaches
+| Method                                      | Model                                                                                                            | Code                                          |
+|---------------------------------------------|------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| Data Filtering & Pseudo‐labeling            | [SaVAE‐SR (Neurocomputing 2021)](https://www.sciencedirect.com/science/article/pii/S0925231221009346?via%3Dihub) | —                                             |
+| Data Filtering & Pseudo‐labeling            | [FGANomaly (TKDE 2023)](https://ieeexplore.ieee.org/document/9618824)                                            | [Code](https://github.com/sxxmason/FGANomaly) |
+| Data Filtering & Pseudo‐labeling            | [STAD‐GAN (TKDD 2023)](https://dl.acm.org/doi/10.1145/3572780)                                                   | —                                             |
+| Distribution‐Aware Learning Objectives      | [RDSSM (TKDE 2022)](https://ieeexplore.ieee.org/document/9773982/)                                               | —                                             |
+| Distribution‐Aware Learning Objectives      | [RoSAS (IPM 2023)](https://www.sciencedirect.com/science/article/pii/S0306457323001966?via%3Dihub)               | [Code](https://github.com/xuhongzuo/rosas/)   |
+| Contextual Representation & Architecture    | [CAE‐M (TKDE 2021)](https://ieeexplore.ieee.org/document/9507359)                                                | —                                             |
+| Contextual Representation & Architecture    | [Li et al. (ICASSP 2022)](https://ieeexplore.ieee.org/document/9747668/)                                                                                      | [Code](https://github.com/
+hanhuili/MTCE-AnomalyDetection)                                      |
 
-#### Distribution-Aware Learning Objectives
-
-#### Contextual Representation and Architecture Enhancements
 
 ### Generalization of the Models
 
-#### Intra-domain Generalization
 
-#### Cross-domain Generalization
 
 ### Foundational Models, Pre-trained Models, and Large Language Models
 
