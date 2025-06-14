@@ -22,24 +22,15 @@ This repository updates the comprehensive list of state of the art deep anomaly 
     - [Robustness of the Models](#robustness-of-the-models)
        
     - [Generalization of the Models](#generalization-of-the-models)
-        - [Intra-domain Generalization](#intra-domain-generalization)
-        - [Cross-domain Generalization](#cross-domain-generalization)
+        
     - [Foundational Models, Pre-trained Models, and Large Language Models](#foundational-models-pre-trained-models-and-large-language-models)
-        - [Foundational Models](#foundational-models)
-        - [Pre-trained Models](#pre-trained-models)
-        - [Leveraging Large Language Models for Time Series Analysis](#leveraging-large-language-models-for-time-series-analysis)
-            - [TS for LLM](#ts-for-llm)
-            - [LLM for TS](#llm-for-ts)
+       
     - [AutoML for Time Series Anomaly Detection](#automl-for-time-series-anomaly-detection)
-        - [Automated Hyperparameter Tuning and Model Selection](#automated-hyperparameter-tuning-and-model-selection)
-        - [Optimization Objectives and Task Adaptation](#optimization-objectives-and-task-adaptation)
+        
     - [Lightweight Models](#lightweight-models)
-        - [Simplifying Network Architectures and Reducing Model Parameters](#simplifying-network-architectures-and-reducing-model-parameters)
-        - [Optimizing the Execution Pipeline](#optimizing-the-execution-pipeline)
+        
     - [Others](#others)
-        - [Efficient Labeling](#efficient-labeling)
-        - [Irregular Data Modeling](#irregular-data-modeling)
-        - [Anomaly Prediction and Early Warning](#anomaly-prediction-and-early-warning)
+        
 
 ## Methods for Deep Anomaly Detection in Time Series
 
@@ -233,15 +224,34 @@ This repository updates the comprehensive list of state of the art deep anomaly 
 
 ### Foundational Models, Pre-trained Models, and Large Language Models
 
-#### Foundational Models
+| Method                   | Model                                                                                                                                               | Code                                                                      |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| Foundational Models      | [TS2Vec (AAAI 2022)](https://ojs.aaai.org/index.php/AAAI/article/view/20881)                                                                        | [Code](https://github.com/zhihanyue/ts2vec)                               |
+| Foundational Models      | [TimesNet (ICLR 2023)](https://openreview.net/forum?id=ju_Uqw384Oq)                                                                                 | [Code](https://github.com/thuml/timesnet)                                 |
+| Foundational Models      | [MSD-Mixer (VLDB 2024)](https://dl.acm.org/doi/10.14778/3654621.3654637)                                                                            | [Code](https://github.com/zshhans/MSD-Mixer)                              |
+| Foundational Models      | [Correlated Attention Transformer (arxiv 2023)](https://arxiv.org/abs/2311.11959)                                                                   | —                                                                         |
+| Foundational Models      | [ModernTCN (ICLR 2024)](https://openreview.net/forum?id=vpJMJerXHU)                                                                                 | [Code](https://github.com/luodhhh/moderntcn)                              |
+| Foundational Models      | [TimeDRL (ICDE 2024)](https://ieeexplore.ieee.org/document/10597874)                                                                                | [Code](https://github.com/blacksnail789521/TimeDRL)                       |
+| Pre-trained Models       | [TF-C (NeurIPS 2022)](https://proceedings.neurips.cc/paper_files/paper/2022/hash/194b8dac525581c346e30a2cebe9a369-Abstract-Conference.html)         | [Code](https://github.com/mims-harvard/tfc-pretraining)                   |
+| Pre-trained Models       | [SimMTM (NeurIPS 2023)](https://openreview.net/pdf?id=ginTcBUnL8)                                                                                   | [Code](https://github.com/thuml/simmtm)                                   |
+| Pre-trained Models       | [DADA (ICLR 2025)](https://openreview.net/forum?id=aKcd7ImG5e)                                                                                      | [Code](https://github.com/decisionintelligence/DADA)                      |
+| Pre-trained Models       | [KAD-Disformer (SIGKDD 2024)](https://dl.acm.org/doi/10.1145/3637528.3671522)                                                                       | [Code](https://github.com/NetManAIOps/KAD-Disformer)                      |
+| TS for LLM               | [One Fits All (NeurIPS 2023)](https://proceedings.neurips.cc/paper_files/paper/2023/hash/86c17de05579cde52025f9984e6e2ebb-Abstract-Conference.html) | [Code](https://github.com/damo-di-ml/one_fits_all)                        |
+| TS for LLM               | [TIME-LLM (ICLR 2024)](https://openreview.net/forum?id=Unb5CVPtae)                                                                                  | [Code](https://github.com/kimmeen/time-llm)                               |
+| TS for LLM               | [TEMPO (ICLR 2024)](https://openreview.net/forum?id=YH5w12OUuU)                                                                                     | [Code](https://github.com/dc-research/tempo)                              |
+| TS for LLM               | [TEST (ICLR 2024)](https://openreview.net/forum?id=Tuh4nZVb0g)                                                                                      | [Code](https://github.com/scxsunchenxi/test)                              |
+| TS for LLM               | [UniTime (WWW 2024)](https://dl.acm.org/doi/10.1145/3589334.3645434)                                                                                | [Code](https://github.com/liuxu77/UniTime)                                |
+| TS for LLM               | [LLM4TS (TIST 2025)](https://dl.acm.org/doi/10.1145/3719207)                                                                                        | [Code](https://github.com/blacksnail789521/LLM4TS)                        |
+| TS for LLM               | [PromptCast (TKDE 2024)](https://ieeexplore.ieee.org/document/10356715/)                                                                            | [Code](https://github.com/HaoUNSW/PISA)                                   |
+| TS for LLM               | [GPT-4V (arxiv 2023)](https://arxiv.org/abs/2311.02782)                                                                                             | [Code](https://github.com/caoyunkang/gpt4v-for-generic-anomaly-detection) |
+| TS for LLM               | [AnomalyLLM (IJCAI 2024)](https://www.ijcai.org/proceedings/2024/239)                                                                               | —                                                                         |
+| TS for LLM               | [AnomalyGPT (AAAI 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/27963)                                                                    | [Code](https://github.com/casia-iva-lab/anomalygpt)                       |
+| LLM for TS               | [TimeGPT (arxiv 2023)](https://arxiv.org/abs/2310.03589)                                                                                            | [Code](https://github.com/Nixtla/nixtla)                                  |
+| LLM for TS               | [Timer (ICML 2024)](https://proceedings.mlr.press/v235/liu24cb.html)                                                                                | [Code](https://github.com/thuml/Large-Time-Series-Model)                  |
+| LLM for TS               | [MOMENT (ICML 204)](https://proceedings.mlr.press/v235/goswami24a.html)                                                                             | [Code](https://github.com/moment-timeseries-foundation-model/moment)      |
+| LLM for TS               | [UniTS (NeurIPS 2024)](https://proceedings.mlr.press/v235/goswami24a.html)                                                                          | [Code](https://github.com/mims-harvard/UniTS)                             |
+| LLM for TS               | [TimeMixer++ (ICLR 2025)](https://openreview.net/forum?id=1CLzLXSFNn)                                                                                                                         | [Code](https://github.com/kwuking/TimeMixer)                                                                  |
 
-#### Pre-trained Models
-
-#### Leveraging Large Language Models for Time Series Analysis
-
-##### TS for LLM
-
-##### LLM for TS
 
 ### AutoML for Time Series Anomaly Detection
 
